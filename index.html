@@ -593,6 +593,16 @@
     <!-- main js -->
     <script src="js/script.js"></script>
     <script src="js/main.js"></script>
+    <script>
+       
+       window.onload = function() {
+          var anchors = document.getElementsByTagName("a");
+          for (var i = 0; i < anchors.length; i++) {
+             anchors[i].onclick = function() {return false;};
+          }
+       };
+             
+    </script>
     
 
 </body></html>
