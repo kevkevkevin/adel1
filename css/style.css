@@ -160,7 +160,7 @@ body {
   background: #404040 !important; }
 
 .main-bg {
-  background: #043381 !important; }
+  background: #867750 !important }
 
 .color-black {
   color: var(--heading-color) !important; }
@@ -2208,7 +2208,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
                   transition: all .5s;
                   margin-right: -18px;
                   position: relative;
-                  color: #F12552; }
+                  color: #867750; }
                 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a:hover {
                   color: var(--main-color); }
                   .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a:hover i {
@@ -2410,11 +2410,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       -o-transition: all .3s;
       transition: all .3s; }
       .nav-right-part ul li.heart:hover {
-        background: #F12552; }
+        background: #867750; }
         .nav-right-part ul li.heart:hover i {
           color: #fff; }
       .nav-right-part ul li.heart i {
-        color: #F12552;
+        color: #867750;
         -webkit-transition: all .3s;
         -o-transition: all .3s;
         transition: all .3s; }
@@ -2485,7 +2485,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   top: 0px !important; }
 
 .nav-style-02.navbar-area-fixed {
-  background: #f12552;
+  background: #867750;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(228, 226, 234, 0.06);
   box-shadow: 0px 4px 6px 0px rgba(228, 226, 234, 0.06); }
 
@@ -2704,7 +2704,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     left: 4px; }
     .video-btn-style-01 a i:before {
       margin-left: -5px;
-      color: #F12552; }
+      color: #867750; }
 
 @-webkit-keyframes ripple-white {
   0% {
@@ -3038,7 +3038,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     top: auto;
     bottom: 0; }
     .banner-style-5 .banner5-sm-slider .thumb .content {
-      background: #F12552;
+      background: #867750;
       color: #fff;
       -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
@@ -3096,7 +3096,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         -o-transition: all .3s;
         transition: all .3s; }
         .banner3-social ul li a:hover {
-          color: #F12552; }
+          color: #867750; }
 
 .banner4-social {
   position: absolute;
@@ -3123,7 +3123,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         -ms-transform: rotate(180deg);
         transform: rotate(180deg); }
         .banner4-social ul li a:hover {
-          color: #F12552; }
+          color: #867750; }
 
 .banner5-social {
   position: absolute;
@@ -3133,7 +3133,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     content: '';
     width: 50px;
     height: 1px;
-    background: #F12552;
+    background: #867750;
     left: -70px;
     top: 32%; }
   .banner5-social ul {
@@ -3144,7 +3144,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       float: none;
       margin-bottom: 30px; }
       .banner5-social ul li a {
-        color: #F12552;
+        color: #867750;
         font-family: var(--secondary-font);
         font-size: 14px;
         text-transform: uppercase;
@@ -4257,12 +4257,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     font-family: var(--secondary-font);
     font-weight: 400;
     color: #fff;
-    background: #113D87;
+    background: #958967;
     text-align: center; }
     .footer-area .copyright-area-inner a {
       font-weight: 600; }
     .footer-area .copyright-area-inner i {
-      color: #F12552; }
+      color: #867750; }
 
 .footer-style-2 .footer-logo img {
   margin-top: 0px; }
@@ -4713,7 +4713,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   -webkit-box-shadow: 0px 20px 50px #2E319211;
   box-shadow: 0px 20px 50px #2E319211;
   padding: 30px 20px;
-  border-bottom: 5px solid #F12552;
+  border-bottom: 5px solid #867750;
   margin-top: 50px;
   margin-left: -85px;
   background: #fff; }
@@ -5111,14 +5111,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   -webkit-box-shadow: 0px 0px 50px #2E319211;
   box-shadow: 0px 0px 50px #2E319211;
   padding: 15px 30px;
-  border-right: 2px solid #F12552;
+  border-right: 2px solid #867750;
   margin-top: 75px; }
   .donate-wrapper a {
     font-size: 20px;
     color: #043381;
     margin-bottom: 0px; }
     .donate-wrapper a i {
-      color: #F12552;
+      color: #867750;
       font-size: 16px; }
 
 .location-area {
@@ -5877,8 +5877,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   bottom: 30px;
   width: 50px;
   height: 50px;
-  color: var(--main-color);
-  background-color: #fff;
+  color: #fff;
+  background-color: #867750;
   text-align: center;
   line-height: 60px;
   border-radius: 50%;
@@ -6136,7 +6136,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     .sidebar-menu .sidebar-inner .sidemenu-text p {
       font-family: var(--secondary-font); }
   .sidebar-menu .sidebar-menu-close {
-    background-color: #043381;
+    background-color: #867750;
     border: 0;
     position: absolute;
     top: 0;
@@ -6244,8 +6244,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   transition: all .3s; }
   .btn-custom-default {
     border-radius: 35px;
-    border: 1px solid #F12552;
-    background: #F12552;
+    border: 1px solid #867750;
+    background: #867750;
     font-family: var(--body-font);
     font-size: 18px;
     letter-spacing: 0px;
@@ -6271,8 +6271,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       background: transparent;
       color: #fff; }
   .btn-custom-primary {
-    color: rgba(4, 51, 129, 0.8);
-    background: rgba(4, 51, 129, 0.2);
+    color: rgb(255 255 255);
+    background: rgb(134 119 80);
     font-size: 18px;
     letter-spacing: 0px;
     line-height: 26px;
@@ -7227,7 +7227,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     transition: all .5s;
     border: 1px solid transparent;
     border-radius: 15px;
-    background: #f12552;
+    background: #867750;
  }
   .icon-box-style-01 a i {
     -webkit-transition: all .4s linear;
@@ -8182,7 +8182,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         font-size: 16px; }
     .content-box-style-07 .thumb img {
       border-radius: 50%;
-      border: 5px solid #F12552; }
+      border: 5px solid #867750; }
 
 .content-box-style-08 {
   position: relative;
