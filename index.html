@@ -53,15 +53,33 @@
         border-radius: 20px;       /* roundness of the scroll thumb */
         border: 3px solid #ffffff00;  /* creates padding around scroll thumb */
         }
-
+        
         .navbar-area-fixed {
             display: none;
+        }
+
+        .modal-title {
+            text-align: right;
+            direction: rtl;
         }
 
         .modal-content {
             height: 700px;
             overflow-y: auto;
             overflow-x: hidden;
+        }
+
+        button.close {
+            position: fixed;
+            left: -22px;
+            background: #fff;
+            opacity: 1;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            font-size: 27px;
+            line-height: 0.3;
+            top: 3px;
         }
     </style>
 </head>
@@ -105,7 +123,7 @@
                 <h4 style="direction: rtl; text-align: right;">اتصل بنا</h4>
                 <ul>
                     <li style="direction: rtl; text-align: right;">Lavaca Street, UAE</li>
-                    <li style="direction: rtl; text-align: right;">email@email.com</li>
+                    <li style="direction: rtl; text-align: right;">adelalhameedi2023@gmail.com</li>
                     <li style="text-align: right;">+971 123 456 789</li>
                 </ul>
             </div>
@@ -207,37 +225,40 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box-style-01 hover-style-01 text-center margin-bottom-30">
+                    <a href="#"  data-toggle="modal" data-target="#eventmodal3"><div class="icon-box-style-01 hover-style-01 text-center margin-bottom-30">
                         <div class="sb-icon">
-                            <a href="#"><i class="flaticon-financial"></i></a>
+                            <i class="flaticon-financial"></i>
                         </div>
                         <div class="sb-content">
                             <h4>توطين وتوظيف</h4>
                             <p>في ظل الاتفاق على وجود مطالبات، فيما يتعلق بالتوطين، سيكون شغلي الشاغل، دعم ومساندة الكثير من المواطنين والمواطنات، ممن يعانون في سبيل توظيفهم، والاستفادة مما يملكون من مؤهلات وخبرات وقدرة على العطاء.</p><br><br>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box-style-01 hover-style-01 text-center margin-bottom-30">
+                    <a href="#"  data-toggle="modal" data-target="#eventmodal2"><div class="icon-box-style-01 hover-style-01 text-center margin-bottom-30">
                         <div class="sb-icon">
-                            <a href="#"><i class="flaticon-hospital"></i></a>
+                            <i class="flaticon-hospital"></i>
                         </div>
                         <div class="sb-content">
                             <h4>رعاية خاصة للمتقاعدين</h4>
                             <p>سيكون من أولوياتي أن يحظى كل متقاعد بحياة كريمة تليق بما قدمه للوطن، وبناء جسور جديدة لتوقير الخبرة المتراكمة للمتقاعدين؛ عبر برامج ومشاريع ومبادرات جادة تسهم في تقديم رعاية خاصة لهم.</p><br><br>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box-style-01 hover-style-01 text-center margin-bottom-30">
+                    <a href="#"  data-toggle="modal" data-target="#eventmodal1"><div class="icon-box-style-01 hover-style-01 text-center margin-bottom-30">
                         <div class="sb-icon">
-                            <a href="#"><i class="flaticon-network"></i></a>
+                            <i class="flaticon-network"></i>
                         </div>
                         <div class="sb-content">
                             <h4>صلاحيات أوسع</h4>
                             <p>المجلس الوطني الاتحادي .. السلطة التشريعية للإتحاد، والسلطة الرابعة، في سلم السلطات الاتحادية الخمس، صلاحياته استشارية، سنعمل على دعم وتكريس نهج الشورى، وبذل كل الجهد؛ لأجل تفعيل استفادة الوطن والمواطن، من كل الأدوار والاختصاصات، التي يضطلع بها المجلس.</p><br>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -254,7 +275,7 @@
                         <h3 class="title">مطالبك ومشكلاتك لها حلول</h3>
                         <p class="description">سوف أعمل وبشكل جاد على أن تكون هناك حلول علمية وعملية لكل مطالبكم وما تواجهون من مشكلات، بحيث يمتد دوري، وينطلق لتقديم الفارق المهم في عدم التوقف عند الدور الاستشاري فحسب وإنما طرح حلول وتقديم اقتراحات تسهم في تحقيق مصلحة الوطن والمواطن.</p>
                         <div class="btn-wrapper padding-top-33">
-                            <a class="btn btn-custom-primary" href="" data-toggle="modal" data-target="#eventmodal">مزيد من المعلومات</a>
+                            <a class="btn btn-custom-primary" href="" data-toggle="modal" data-target="#eventmodal4">مزيد من المعلومات</a>
                         </div>
                     </div>
                 </div>
@@ -302,7 +323,10 @@
                                     <li style="direction: rtl; text-align: right;"><a href="#"><i class="fa fa-bell"></i> يوم واحد</a></li>
                                     <li style="direction: rtl; text-align: right;"><a href="#"><i class="fa fa-user"></i> عن طريق التصويت الهجين</a></li>
                                 </ul>
-                                <div class="btn-wrapper" style="direction: rtl; text-align: right;">
+                                <div class="btn-wrapper" style="direction: rtl; text-align: right; padding: 10px 25px;
+                                background: #867750;
+                                border-radius: 35px;
+                                color: #fff;">
                                     <a href="#">لمزيد من المعلومات</a>
                                 </div>
                             </div>
@@ -328,7 +352,10 @@
                                     <li style="direction: rtl; text-align: right;"><a href="#"><i class="fa fa-bell"></i> يوم واحد</li>
                                     <li style="direction: rtl; text-align: right;"><a href="#"><i class="fa fa-user"></i> عن طريق التصويت الهجين</li>
                                 </ul>
-                                <div class="btn-wrapper" style="direction: rtl; text-align: right;">
+                                <div class="btn-wrapper" style="direction: rtl; text-align: right; padding: 10px 25px;
+                                background: #867750;
+                                border-radius: 35px;
+                                color: #fff;">
                                     <a href="https://uaenec.ae/ar/elections-timetable" target="_blank">لمزيد من المعلومات</a>
                                 </div>
                             </div>
@@ -354,7 +381,10 @@
                                     <li style="direction: rtl; text-align: right;"><a href="#"><i class="fa fa-bell"></i> يوم واحد</li>
                                     <li style="direction: rtl; text-align: right;"><a href="#"><i class="fa fa-user"></i> عن طريق التصويت الهجين</li>
                                 </ul>
-                                <div class="btn-wrapper" style="direction: rtl; text-align: right;">
+                                <div class="btn-wrapper" style="direction: rtl; text-align: right; padding: 10px 25px;
+                                background: #867750;
+                                border-radius: 35px;
+                                color: #fff;">
                                     <a href="https://uaenec.ae/ar/elections-timetable" target="_blank">لمزيد من المعلومات</a>
                                 </div>
                             </div>
@@ -380,7 +410,10 @@
                                     <li style="direction: rtl; text-align: right;"><a href="#"><i class="fa fa-bell"></i> يوم واحد</li>
                                     <li style="direction: rtl; text-align: right;"><a href="#"><i class="fa fa-user"></i> عن طريق التصويت عبر الإنترنت</li>
                                 </ul>
-                                <div class="btn-wrapper" style="direction: rtl; text-align: right;">
+                                <div class="btn-wrapper" style="direction: rtl; text-align: right; padding: 10px 25px;
+                                background: #867750;
+                                border-radius: 35px;
+                                color: #fff;">
                                     <a href="https://uaenec.ae/ar/elections-timetable" target="_blank">لمزيد من المعلومات</a>
                                 </div>
                             </div>
@@ -596,14 +629,99 @@
             <div class="modal-body" style="direction: rtl; text-align: right; margin-top: 15px;">
                 <p>
                     قبل التفكير في ترشحي عضوا للمجلس الوطني الاتحادي كنت حريصا على أن يكون دوري ومهمتي اقتراح وتقديم حلول لكثير من مطالبات المواطنين من أبناء دولة الإمارات، وإمارة الشارقة، وبالفعل قمت بجمع ودراسة كل المطالب، واقتراح حلول لها من خلال دراسات وأبحاث خبراء وباحثين، على أعلى مستوى من المهنية.
-ومثل ما يركز برنامجي على تشريعات من أجل المستقبل، والعمل على تفعيل استفادة الوطن والمواطن، فهو يتضمن اهتماماً كبيراً ورعاية خاصة بقضايا المتقاعدين، والتركيز على قضية "التوطين"، وتقديم آليات لفرص العمل، فإنني سوف أعمل على التركيز على ما توليه دولتنا وقيادتنا الرشيدة؛ من أجل استقرار الأسرة والمجتمع، وأتعهد أن تكون قضايا الأسرة في مقدمة أولوياتي، وبإذن الله سوف، أكون داعماً ومسانداً لكل التشريعات والقوانين، التي تستهدف حلَ مشاكل الأسرة، وتقوي روابطها.
-وسوف أعمل على دعم الهوية الوطنية، وتعزيز وتقوية مكانة ودور المرأة في المجتمع الإماراتي، ومساندة كل خطوات تقديم الحلول العملية والتشريعية للمشكلات الأسرية.
-<br><br>
-وأود القول ـــ كمرشح يلتزم بوعوده وعهوده وبرنامجه الانتخابي ـــ إن التعليم سيكون أولوية مطلقة من أجل المستقبل، والعمل على تعزيز القيمة المضافة،  لخطوات الدولة من أجل إصلاح التعليم، في كافة المراحل التعليمية، وطرح تشريعات للوصول إلى أعلى درجات التعليم الجيد للطالب الإماراتي، ودعم توجه الدولة نحو جودة التعليم، والعمل على وضع مناهج موحدةٍ، واقتراح الإطار القانوني لفريق خبرة إماراتية؛ لإصلاح التعليم وتطويره المستمر، ووضع آلية قانونية لضمان تأهيل الطالب وربطه بسوق العمل، ووضع آلية ذات إطار قانوني، لتعزيز البحث العلمي والابتكار وفق معايير تنافسية.
-ولن تكون خدمات الصحة الضرورية لكل مواطن بعيدة عن الاهتمامات التي تتطلب حلولاً، بل وسوف أعمل على أن تنال كل الاهتمام في برنامجي، وكلي حرص على وصولها لكل مواطن، بأفضل صورةٍ وأيسر الطرق وأنسب السبل وبالتكلفة المناسبة، وفي التوقيت الصحيح، وبغطاء تشريعي قوي.
-<br><br>
- وسوف يكون لزاماً عليَ العمل على دعم خطوات تحسين الرعاية الصحية بالمستشفيات، وطرح آليةٍ في إطارٍ قانوني؛ لإتاحة الرعاية الأولية والعمل على تقديم رعايةٍ صحيةٍ بأعلى مستوىً لأصحابِ الهمم (من ذوي الإعاقة) وعوائلهم ووضع إطارٍ قانونيٍ لتنظيمِ دخول الذكاء الاصطناعي إلى عالم تقديم الخدمات الطبية في التشخيص والرعاية والعلاج والتعاون مع الدولة في تطوير القطاع الصحي وخدماته، وتشجيع الاستثمار في تصنيع الدواء.
+                    ومثل ما يركز برنامجي على تشريعات من أجل المستقبل، والعمل على تفعيل استفادة الوطن والمواطن، فهو يتضمن اهتماماً كبيراً ورعاية خاصة بقضايا المتقاعدين، والتركيز على قضية "التوطين"، وتقديم آليات لفرص العمل، فإنني سوف أعمل على التركيز على ما توليه دولتنا وقيادتنا الرشيدة؛ من أجل استقرار الأسرة والمجتمع، وأتعهد أن تكون قضايا الأسرة في مقدمة أولوياتي، وبإذن الله سوف، أكون داعماً ومسانداً لكل التشريعات والقوانين، التي تستهدف حلَ مشاكل الأسرة، وتقوي روابطها.
+                    وسوف أعمل على دعم الهوية الوطنية، وتعزيز وتقوية مكانة ودور المرأة في المجتمع الإماراتي، ومساندة كل خطوات تقديم الحلول العملية والتشريعية للمشكلات الأسرية.
+                    <br><br>
+                    وأود القول ـــ كمرشح يلتزم بوعوده وعهوده وبرنامجه الانتخابي ـــ إن التعليم سيكون أولوية مطلقة من أجل المستقبل، والعمل على تعزيز القيمة المضافة،  لخطوات الدولة من أجل إصلاح التعليم، في كافة المراحل التعليمية، وطرح تشريعات للوصول إلى أعلى درجات التعليم الجيد للطالب الإماراتي، ودعم توجه الدولة نحو جودة التعليم، والعمل على وضع مناهج موحدةٍ، واقتراح الإطار القانوني لفريق خبرة إماراتية؛ لإصلاح التعليم وتطويره المستمر، ووضع آلية قانونية لضمان تأهيل الطالب وربطه بسوق العمل، ووضع آلية ذات إطار قانوني، لتعزيز البحث العلمي والابتكار وفق معايير تنافسية.
+                    ولن تكون خدمات الصحة الضرورية لكل مواطن بعيدة عن الاهتمامات التي تتطلب حلولاً، بل وسوف أعمل على أن تنال كل الاهتمام في برنامجي، وكلي حرص على وصولها لكل مواطن، بأفضل صورةٍ وأيسر الطرق وأنسب السبل وبالتكلفة المناسبة، وفي التوقيت الصحيح، وبغطاء تشريعي قوي.
+                    <br><br>
+                    وسوف يكون لزاماً عليَ العمل على دعم خطوات تحسين الرعاية الصحية بالمستشفيات، وطرح آليةٍ في إطارٍ قانوني؛ لإتاحة الرعاية الأولية والعمل على تقديم رعايةٍ صحيةٍ بأعلى مستوىً لأصحابِ الهمم (من ذوي الإعاقة) وعوائلهم ووضع إطارٍ قانونيٍ لتنظيمِ دخول الذكاء الاصطناعي إلى عالم تقديم الخدمات الطبية في التشخيص والرعاية والعلاج والتعاون مع الدولة في تطوير القطاع الصحي وخدماته، وتشجيع الاستثمار في تصنيع الدواء.
                 </p>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+
+    <div id="eventmodal1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" 
+                style="    background: #867750;
+                padding-bottom: 40px;"
+            >
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title" style="color: #ffffff;">صلاحيات أوسع وتشريعات من أجل المستقبل</h3>
+            </div>
+            <div class="modal-body" style="direction: rtl; text-align: right; margin-top: 15px;">
+                <p>
+                    المجلس الوطني الاتحادي هو السلطة التشريعية للاتحاد، وهو السلطة الرابعة، في سلم السلطات الاتحادية الخمس، صلاحياته استشارية، وسوف نعمل على دعم وتكريس نهج الشورى، وبذل كل الجهد؛ من أجل تفعيل استفادة الوطن والمواطن، من كل الأدوار والاختصاصات، التي يضطلع بها المجلس.
+
+العمل على تفعيل اللجان المنبثقة عن المجلس الوطني الاتحادي، وإعطاؤها صلاحيات أوسع وأشمل؛ بما يسهم في دعم وتكريس نهج الشورى، مع العمل على بذل كل الجهد؛ من أجل تفعيل استفادة الوطن والمواطن، من كل الأدوار والاختصاصات التي يضطلع بها المجلس الوطني، في مشروعات القوانين الاتحادية، وما يتعلق بالميزانية العامة للدولة ومشروعات حساباتها الختامية، والتعبير الصادق عن نبض المواطنين في جميع المعاهدات، والاتفاقيات الدولية كافة؛ بما يسهم في تحقيق التنمية المستدامة واستمرار وتقوية العلاقة المتميزة بين السلطات الاتحادية.
+                </p>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+
+    <div id="eventmodal2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" 
+                style="    background: #867750;
+                padding-bottom: 40px;"
+            >
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title" style="color: #ffffff;">رعاية خاصة للمتقاعدين وجسور لتوقير الخبرة</h3>
+            </div>
+            <div class="modal-body" style="direction: rtl; text-align: right; margin-top: 15px;">
+                <p>
+                    سوف أضع في مقدمة أولوياتي توفير رعاية خاصة للمتقاعدين، وأن يحظى كل متقاعد بحياة كريمة تليق بما قدمه للوطن، وبناء جسور جديدة لتوقير الخبرة المتراكمة للمتقاعدين عبر برامج ومشاريع ومبادرات جادة خضعت لدراسات دقيقة وتتضمنها إستراتيجية بمؤشرات محددة بدقة تسهم في تفعيل دورهم، وتنسيق جهود الجهات المعنية لإتاحة فرصة العمل، للأكثر خبرة وتشجيع مشروعاتهم الفردية والتنسيق مع القطاع الخاص للقيام بدور أفضل تجاه المتقاعدين كمسئولية تجاه مجتمع الخبرة، وتنفيذ مبادرات لرفع مستوي المتقاعد وربطه بمعدل التضخم بشكل سنوي، وإلغاء كل الديون المستحقة عليه للدولة، من قرض إسكان وما شابهه، واستحداث تيسيرات للمتقاعد في الحصول على الخدمات، بدراسة إعفائه من فواتير الكهرباء والماء والغاز، مع الأخذ في الاعتبار عدد الزوجات، مع ضمانات بعدم تحميل موازنة الدولة أعباء إضافية في حال تنفيذ تلك الخطط والبرامج.
+                </p>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+
+    <div id="eventmodal3" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" 
+                style="    background: #867750;
+                padding-bottom: 40px;"
+            >
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title" style="color: #ffffff;">حلول لإنجاح "التوطين" وآليات لفرص العمل</h3>
+            </div>
+            <div class="modal-body" style="direction: rtl; text-align: right; margin-top: 15px;">
+                <p>
+                    سيكون شغلي الشاغل دعم ومساندة الكثير من المواطنين والمواطنات ممن يعانون في سبيل توظيفهم والاستفادة مما يملكون من مؤهلات وخبرات وقدرة على العطاء، من خلال وضع حلولٍ تعمل على إنجاح وتفعيل قضية "التوظيف" التي ما زالت رغم كل الجهود تراوح مكانها، بحيث يتم ضمان وظيفة لكل شابٍ وفتاةٍ فور التخرج، وضبط سوق العمل والقضاء على الاختلالات الديمغرافية، وضبط ما يترتب على الهجرة المفتوحة؛ من أجل زيادة فعالية برامج التوظيف التي تحرص عليها دولة الإمارات، من خلال قوانين العمل وأجور العمالة؛ حتى يتمكن فائض كبير من الخريجين من الحصول على عمل بالقطاعين الحكومي والخاص.
+مع العمل على تقديم اقتراحات لتقوية سياسة الدولة؛ من أجل محاربة البطالة والحد من معدلاتها وتأثيراتها السلبية، لا سيما البطالة المقنعة، وربط التخصصات بحاجة سوق العمل عند انتساب الطالب للدراسة بالجامعة، وإلزام الطالب بمعدل تراكمي لا يقل عن 2.7 كحد أدنى، وتأهيل الخريجين لسوق العمل دراسةً وتدريباً وتشغيلاً، ووضع سياسات وقوانين تلزم الوزارات والهيئات الاتحادية، والبنوك والشركات الحكومية وشبه الحكومية والخاصة والمحلية، بتوظيف الخريجين بحد أقصي خلال ٦ أشهر من تاريخ التخرج، وأن يتم صرف راتب لا يقل بحالٍ عن 7 آلاف درهم شهريا، لكل خريج في حالة انتظاره للوظيفة، وأن  تناط بهذا العمل "هيئة للتوطين" وتكون مسؤولة عن تنفيذه وإنجازه ومتابعته ومراقبته.
+                </p>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+
+    <div id="eventmodal4" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" 
+                style="    background: #867750;
+                padding-bottom: 40px;"
+            >
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title" style="color: #ffffff;">مطالبك ومشكلاتك لها حلول</h3>
+            </div>
+            <div class="modal-body" style="direction: rtl; text-align: right; margin-top: 15px;">
+                <p>ما أؤمن به وأقدمه من اقتراحاتٍ وخططٍ ومشاريعَ، تضمنها البرنامج الانتخابي لم تأت من فراغٍ، وإنما جاءت مدعومةً بشكلٍ أساسيٍ بدراساتٍ وآراءَ خبراء واختصاصيين على أعلى مستوىً من الخبرة، وليس مجرد شعارات، وأجد أنه من الضروري أن ما قدمته في برنامجي الانتخابي جاء معتمداً بشكلٍ أساسيٍ على الدراسات الدقيقة لخبراء وباحثين من داخل دولة الإمارات وخارجها، ومدعوماً بالأرقام والإحصاءات، وأن الميزانيات التي أقترحها جاءت متواكبةً مع حلولٍ شاملةٍ ووافيةٍ ومتكاملةٍ ومستدامةٍ، دون أن تتضمن أي أعباء إضافيةٍ على موازنة الدولة.</p>
             </div>
           </div>
       

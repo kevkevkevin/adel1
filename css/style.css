@@ -7235,13 +7235,26 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     -webkit-transition: all .4s linear;
     -o-transition: all .4s linear;
     transition: all .4s linear; }
+    .icon-box-style-01 i {
+      -webkit-transition: all .4s linear;
+      -o-transition: all .4s linear;
+      transition: all .4s linear;
+  }
     .icon-box-style-01 a i:hover {
+      color: #404040; }
+    .icon-box-style-01 i:hover {
       color: #404040; }
     .icon-box-style-01 a i:before {
       font-size: 40px;
       margin-left: 5px;
       line-height: 80px;
       color: #ffffff; }
+      .icon-box-style-01 i::before{
+        font-size: 40px;
+        margin-left: 5px;
+        line-height: 80px;
+        color: #ffffff;
+      }
   .icon-box-style-01 .sb-content h4 {
     color: #404040;
     font-size: 24px;
