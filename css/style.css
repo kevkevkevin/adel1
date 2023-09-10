@@ -4718,7 +4718,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-left: -85px;
   background: #fff; }
   .up-content-style-01 .date-month {
-    position: relative; }
+    position: relative;
+    direction: rtl;
+    text-align: right; }
     .up-content-style-01 .date-month:before {
       position: absolute;
       width: 120px;
@@ -4726,7 +4728,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       background: #043381;
       content: '';
       top: 38px;
-      left: 85px; }
+      left: 50px; }
     .up-content-style-01 .date-month .date {
       font-size: 55px;
       color: #043381;
