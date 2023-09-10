@@ -36,15 +36,18 @@
             font-family: 'Tajawal', sans-serif !important;
         }
 
-        body::-webkit-scrollbar {
+        body::-webkit-scrollbar,
+        .modal-content::-webkit-scrollbar {
         width: 5px;               /* width of the entire scrollbar */
         }
 
-        body::-webkit-scrollbar-track {
-        background: #ffffff00;        /* color of the tracking area */
+        body::-webkit-scrollbar-track,
+        .modal-content::-webkit-scrollbar-track {
+        background: #ffffff;        /* color of the tracking area */
         }
 
-        body::-webkit-scrollbar-thumb {
+        body::-webkit-scrollbar-thumb,
+        .modal-content::-webkit-scrollbar-thumb {
         background-color: #867750;    /* color of the scroll thumb */
         border-radius: 20px;       /* roundness of the scroll thumb */
         border: 3px solid #ffffff00;  /* creates padding around scroll thumb */
@@ -52,6 +55,12 @@
 
         .navbar-area-fixed {
             display: none;
+        }
+
+        .modal-content {
+            height: 700px;
+            overflow-y: auto;
+            overflow-x: hidden;
         }
     </style>
 </head>
@@ -88,7 +97,8 @@
                 <img src="images/mainLogoAdel.png" alt="logo" width="100">
             </div>
             <div class="sidemenu-text">
-                <p style="direction: rtl; text-align: right;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
+                <p style="direction: rtl; text-align: right; line-height: 1.9;">يَدْيِ فيِ أَيدِيكُم مِنْ أَجْلِ وَطَنِنَا وَدَوْلَتِنَا اَلَّتِي بَاتَتْ نَمُوذَجًا يُحْتَذَى.. وَإِمَارَتَنَا مَوْطِنُ اَلْعِزِّ، وَحَاضِنَةُ اَلتَّارِيخِ وَالتُّرَاثِ، وَمَدِينَتِنَا جَوْهَرَةُ اَلشَّارِقَةِ، وَرَمْزُ اَلْأَصَالَةِ، نَسِيرُ وَنَتَحَرَّكُ نَحْوَ اَلْمُسْتَقْبَلِ وَنَعْلِي مِنْ قِيمَةِ اَلْمُشَارَكَةِ
+                    عند الضغط يفتح على (البرنامج الانتخابي ـــ من آخر نسخة مراجعة ومعتمدة)</p>
             </div>
             <div class="sidebar-contact">
                 <h4 style="direction: rtl; text-align: right;">اتصل بنا</h4>
@@ -96,14 +106,6 @@
                     <li style="direction: rtl; text-align: right;">Lavaca Street, UAE</li>
                     <li style="direction: rtl; text-align: right;">email@email.com</li>
                     <li style="text-align: right;">+971 123 456 789</li>
-                </ul>
-            </div>
-            <div class="social-link" style="direction: rtl; text-align: right;">
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -157,8 +159,10 @@
                                 <img src="images/8.png" style="opacity: 0;">
                             </div>
                             <div class="content align-self-center col-lg-6" style="direction: rtl; text-align: right;">
-                                <h2 class="title" data-animation-in="fadeInRight">الخيار للتغيير الأفضل.</h2>
-                                <p class="description" data-animation-in="fadeInDown">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
+                                <h2 class="title" data-animation-in="fadeInRight" style="font-weight: 600;">معاً.. نحقق مصلحة الوطن وحلم المواطن</h2>
+                                <p class="description" data-animation-in="fadeInDown" style="line-height: 1.9;">يَدْيِ فيِ أَيدِيكُم مِنْ أَجْلِ وَطَنِنَا وَدَوْلَتِنَا اَلَّتِي بَاتَتْ نَمُوذَجًا يُحْتَذَى.. وَإِمَارَتَنَا مَوْطِنُ اَلْعِزِّ، وَحَاضِنَةُ اَلتَّارِيخِ وَالتُّرَاثِ، وَمَدِينَتِنَا جَوْهَرَةُ اَلشَّارِقَةِ، وَرَمْزُ اَلْأَصَالَةِ، نَسِيرُ وَنَتَحَرَّكُ نَحْوَ اَلْمُسْتَقْبَلِ وَنَعْلِي مِنْ قِيمَةِ اَلْمُشَارَكَةِ
+                                    عند الضغط يفتح على (البرنامج الانتخابي ـــ من آخر نسخة مراجعة ومعتمدة)
+                                    </p>
                                 <div class="margin-top-50">
                                     <div class="btn-wrapper mr-3" data-animation-in="fadeInDown">
                                         <a class="btn btn-custom-default" href="#">عرض الحملة</a>
@@ -172,10 +176,11 @@
         </div>
         <div class="banner5-social">
             <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="https://twitter.com/adelalhameedi">Twitter</a></li>
+                <li><a href="https://www.snapchat.com/add/adelalhameedi">Snapchat</a></li>
+                <li><a href="https://www.facebook.com/AdelalhameediUAE">Facebook</a></li>
+                <li><a href="https://www.facebook.com/AdelalhameediUAE">TikTok</a></li>
+                <li><a href="https://www.facebook.com/AdelalhameediUAE">Instagram</a></li>
             </ul>
         </div>
         <!-- <div class="controler-wrapper-style-04">
@@ -189,11 +194,9 @@
     </div>
     <!-- banner end  -->
 
-    <!-- service start -->
+    <!-- service start 
     <div class="our-service-area position-relative padding-top-115 padding-bottom-120">
-        <!-- <div class="donate-wrapper">
-            <a href="donate.html"><i class="fa fa-heart"></i> Donate Now</a>
-        </div>  -->
+       
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -239,19 +242,19 @@
             </div>
         </div>
     </div>
-    <!-- service end -->
+     service end -->
 
     <!-- politx-content-area start -->
-    <div class="politx-content-area margin-bottom-120 margin-top-60" style="direction: rtl; text-align: right;">
+    <div class="politx-content-area margin-bottom-120 margin-top-60" style="direction: rtl; text-align: right; margin-top: 250px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 align-self-center order-2 order-lg-1">
                     <div class="content-box-style-01">
                         <p class="section-subtitle">معلومات عنا</p>
-                        <h2 class="title">لوريم إيبسوم</h2>
-                        <p class="description">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
+                        <h2 class="title">صلاحيات أوسع</h2>
+                        <p class="description">المجلس الوطني الاتحادي هو السلطة التشريعية للاتحاد، وهو السلطة الرابعة، في سلم السلطات الاتحادية الخمس، صلاحياته استشارية، وسوف نعمل على دعم وتكريس نهج الشورى، وبذل كل الجهد؛ من أجل تفعيل استفادة الوطن والمواطن، من كل الأدوار والاختصاصات، التي يضطلع بها المجلس.</p>
                         <div class="btn-wrapper padding-top-33">
-                            <a class="btn btn-custom-primary" href="#">>عرض الحملة</a>
+                            <a class="btn btn-custom-primary" href="" data-toggle="modal" data-target="#eventmodal">عرض الحملة</a>
                         </div>
                     </div>
                 </div>
@@ -264,6 +267,11 @@
         </div>
     </div>
     <!-- politx-content-area end -->
+
+    <!-- CTA SECTION -->
+    <div class="" style="background: url(./images/adelCTA.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; height: 100vh; background-attachment: fixed;">
+
+    </div>
 
     <div class="up-event-two margin-bottom-115 padding-top-115">
         <div class="container">
@@ -403,63 +411,20 @@
     <!-- blog area End -->
 
     <!-- party-box-area start -->
-    <div class="party-box-area padding-top-120">
+    <div class="party-box-area padding-top-120" style="margin-bottom: 120px;">
         <div class="container">
             <div class="col-lg-12 party-box-wrapper d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center text-lg-left text-center">
                 <div class="btn-wrapper align-self-center">
                     <a class="btn btn-custom-primary" href="#" style="direction: rtl;">كن متطوعا</a>
                 </div>
                 <div class="party-box-content">
-                    <h4 style="direction: rtl; text-align: right;">كن جزءا من نجاحنا</h4>
-                    <p style="direction: rtl; text-align: right;">مع دولور ماجنا أليكا. قم بممارسة الحد الأدنى من النشاط</p>
+                    <h3 style="direction: rtl; text-align: right; font-weight: 600;">لا يُخذل من دعا بصوتٍ لإجلِ نجاحٍ.</h3>
+                    <p style="direction: rtl; text-align: right;">أثق في اختياراتكم، وأقدر رأيكم الحر المستنير، وبإذن الله ..بإرادتكم قادمون.</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- party-box-area end -->
-
-    <!-- brand-area start -->
-    <div class="brand-area padding-top-70 padding-bottom-110">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="brand-slider">
-                        <div class="brant-item">
-                            <img src="images/brand1.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand2.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand3.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand4.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand5.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand1.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand2.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand3.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand4.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="images/brand5.png" alt="brand">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- brand-area end -->
 
     <!-- footer area start -->
     <footer class="footer-area footer-style-1 main-bg">
@@ -471,7 +436,9 @@
                             <a href="index.html" class="footer-logo"> 
                                 <img src="images/logo.png" alt="footer logo">
                             </a>
-                            <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
+                            <p>يَدْيِ فيِ أَيدِيكُم مِنْ أَجْلِ وَطَنِنَا وَدَوْلَتِنَا اَلَّتِي بَاتَتْ نَمُوذَجًا يُحْتَذَى.. وَإِمَارَتَنَا مَوْطِنُ اَلْعِزِّ، وَحَاضِنَةُ اَلتَّارِيخِ وَالتُّرَاثِ، وَمَدِينَتِنَا جَوْهَرَةُ اَلشَّارِقَةِ، وَرَمْزُ اَلْأَصَالَةِ، نَسِيرُ وَنَتَحَرَّكُ نَحْوَ اَلْمُسْتَقْبَلِ وَنَعْلِي مِنْ قِيمَةِ اَلْمُشَارَكَةِ
+                                عند الضغط يفتح على (البرنامج الانتخابي ـــ من آخر نسخة مراجعة ومعتمدة)
+                                </p>
                             <ul class="contact_info_list">
                                 <li class="single-info-item" style="direction: rtl; text-align: right;">
                                     
@@ -530,7 +497,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="footer-widget widget">
-                                    <h4 class="widget-title">خلاصات إنستغرام</h4>
+                                    <h4 class="widget-title">مشاركة الانستقرام</h4>
                                     <ul class="instagram-feed" style="direction: rtl; text-align: right;">
                                         <li><a href="#"><img src="images/1_3.png" alt="instagram"></a></li>
                                         <li><a href="#"><img src="images/2_2.png" alt="instagram"></a></li>
@@ -557,6 +524,36 @@
     </footer>
     <!-- footer area end -->
 
+    <!-- Modal -->
+    <div id="eventmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" 
+                style="    background: #867750;
+                padding-bottom: 40px;"
+            >
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title" style="color: #ffffff;">صلاحيات أوسع</h3>
+            </div>
+            <div class="modal-body" style="direction: rtl; text-align: right;">
+                <p>المجلس الوطني الاتحادي هو السلطة التشريعية للاتحاد، وهو السلطة الرابعة، في سلم السلطات الاتحادية الخمس، صلاحياته استشارية، وسوف نعمل على دعم وتكريس نهج الشورى، وبذل كل الجهد؛ من أجل تفعيل استفادة الوطن والمواطن، من كل الأدوار والاختصاصات، التي يضطلع بها المجلس.
+                    عند الضغط يتم كتابة (صلاحيات أوسع وتشريعات من أجل المستقبل
+                    العمل على تفعيل اللجان المنبثقة عن المجلس الوطني الاتحادي، وإعطاؤها صلاحيات أوسع وأشمل؛ بما يسهم في دعم وتكريس نهج الشورى، مع العمل على بذل كل الجهد؛ من أجل تفعيل استفادة الوطن والمواطن، من كل الأدوار والاختصاصات التي يضطلع بها المجلس الوطني، في مشروعات القوانين الاتحادية، وما يتعلق بالميزانية العامة للدولة ومشروعات حساباتها الختامية، والتعبير الصادق عن نبض المواطنين في جميع المعاهدات، والاتفاقيات الدولية كافة؛ بما يسهم في تحقيق التنمية المستدامة واستمرار وتقوية العلاقة المتميزة بين السلطات الاتحادية.)
+                    </p> <br><br>
+                <h4>رعاية خاصة للمتقاعدين</h4>
+                <p>
+                    سيكون من أولوياتي أن يحظى كل متقاعد بحياة كريمة تليق بما قدمه للوطن، وبناء جسور جديدة لتوقير الخبرة المتراكمة للمتقاعدين؛ عبر برامج ومشاريع ومبادرات جادة تسهم في تقديم رعاية خاصة لهم.
+عند الضغط يتم كتابة (رعاية خاصة للمتقاعدين وجسور لتوقير الخبرة
+سوف أضع في مقدمة أولوياتي توفير رعاية خاصة للمتقاعدين، وأن يحظى كل متقاعد بحياة كريمة تليق بما قدمه للوطن، وبناء جسور جديدة لتوقير الخبرة المتراكمة للمتقاعدين عبر برامج ومشاريع ومبادرات جادة خضعت لدراسات دقيقة وتتضمنها إستراتيجية بمؤشرات محددة بدقة تسهم في تفعيل دورهم، وتنسيق جهود الجهات المعنية لإتاحة فرصة العمل، للأكثر خبرة وتشجيع مشروعاتهم الفردية والتنسيق مع القطاع الخاص للقيام بدور أفضل تجاه المتقاعدين كمسئولية تجاه مجتمع الخبرة، وتنفيذ مبادرات لرفع مستوي المتقاعد وربطه بمعدل التضخم بشكل سنوي، وإلغاء كل الديون المستحقة عليه للدولة، من قرض إسكان وما شابهه، واستحداث تيسيرات للمتقاعد في الحصول على الخدمات، بدراسة إعفائه من فواتير الكهرباء والماء والغاز، مع الأخذ في الاعتبار عدد الزوجات، مع ضمانات بعدم تحميل موازنة الدولة أعباء إضافية في حال تنفيذ تلك الخطط والبرامج)
+
+                </p>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+    
     <!-- back to top area start -->
     <div class="back-to-top">
         <span class="back-top"><i class="fa fa-angle-up"></i></span>
@@ -597,16 +594,5 @@
     <!-- main js -->
     <script src="js/script.js"></script>
     <script src="js/main.js"></script>
-    <script>
-       
-       window.onload = function() {
-          var anchors = document.getElementsByTagName("a");
-          for (var i = 0; i < anchors.length; i++) {
-             anchors[i].onclick = function() {return false;};
-          }
-       };
-             
-    </script>
     
-
 </body></html>
