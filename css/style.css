@@ -4715,7 +4715,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   padding: 30px 20px;
   border-bottom: 5px solid #867750;
   margin-top: 50px;
-  margin-left: -85px;
+  margin-left: 0px;
+  /* margin-left: -85px; */
   background: #fff; }
   .up-content-style-01 .date-month {
     position: relative;
@@ -4725,18 +4726,18 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       position: absolute;
       width: 120px;
       height: 1px;
-      background: #043381;
+      background: #867750;
       content: '';
       top: 38px;
       left: 50px; }
     .up-content-style-01 .date-month .date {
       font-size: 55px;
-      color: #043381;
+      color: #867750;
       font-weight: 500; }
     .up-content-style-01 .date-month .month {
       font-size: 18px;
       text-transform: uppercase;
-      color: #043381;
+      color: #867750;
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
@@ -4757,11 +4758,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         font-family: var(--secondary-font);
         color: #666; }
         .up-content-style-01 ul li a i {
-          color: #043381; }
+          color: #867750; }
   .up-content-style-01 .btn-wrapper {
     margin-top: 50px; }
     .up-content-style-01 .btn-wrapper:hover a {
-      color: #043381; }
+      color: #1a1a1a; }
 
 .leadership-content h2 {
   font-size: 55px;
@@ -6000,7 +6001,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: var(--main-color);
+  background-color: #000;
   border-radius: 100%;
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   animation: sk-bounce 2.0s infinite ease-in-out; }
@@ -6284,7 +6285,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     .btn-custom-primary:hover {
       border: 1px solid #fff;
       color: #fff !important;
-      background: #043381; }
+      background: #1a1a1a; }
   .btn-red {
     color: #fff;
     background: #B22234;
