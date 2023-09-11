@@ -808,6 +808,13 @@
 
 /* Tablet Layout wide: 767px. */
 @media only screen and (max-width: 767px) {
+    .m_hidden{
+        opacity: 0;
+        color: #ffffff00 !important;
+    }
+    .m_center {
+        text-align: center;
+    }
     .faq-area .accordion-style-2 .card .card-header a {
         font-size: 24px;
     }
