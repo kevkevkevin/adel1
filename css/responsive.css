@@ -343,11 +343,11 @@
 }
 
 @media only screen and (max-width:991px) {
-    .icon-box-style-01 .sb-icon {
-        height: 72px;
-    }
+    
     .sb-icon h2 {
-        font-size: 60px;
+        position: relative;
+        top: 8px;
+        font-size: 48px;
     }
     .m_links {
         font-weight: 700;
