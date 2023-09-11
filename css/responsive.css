@@ -326,6 +326,15 @@
 }
 
 @media only screen and (max-width:991px) {
+    .m_service {
+        display: block;
+    }
+    .d_services {
+        display: none;
+    }
+    .paddingHeader_sm_screen {
+        padding-left: 0px !important;
+    }
     .about-member-count.padding-top-135 {
         padding-top: 100px !important;
     }

@@ -418,6 +418,9 @@ code {
 #content[tabindex="-1"]:focus {
   outline: 0; }
 
+  .m_service {
+    display: none;
+}
 /*--------------------------------------------------------------
 # Globals
 --------------------------------------------------------------*/
@@ -6459,8 +6462,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     content: '';
     width: 38px;
     height: 2px;
-    background: #043381;
-    left: 0px;
+    background: #867750;
+    right: 227px;
     top: 10px; }
 
 .subtitle-style2 {
