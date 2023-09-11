@@ -2991,7 +2991,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     font-family: var(--secondary-font); }
 
 .banner-style-5 {
-  background-image: url('../images/hero1.jpg');
+  background-image: url('../images/hero-1.jpg');
   height: 100vh;
   position: relative;
   width: 100%;
@@ -3133,9 +3133,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     content: '';
     width: 50px;
     height: 1px;
-    background: #867750;
+    background: #ffffff;
     left: -70px;
-    top: 32%; }
+    top: 25%;
+}
   .banner5-social ul {
     margin: 0;
     padding: 0; }
@@ -3144,7 +3145,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       float: none;
       margin-bottom: 30px; }
       .banner5-social ul li a {
-        color: #867750;
+        color: #ffffff;
         font-family: var(--secondary-font);
         font-size: 14px;
         text-transform: uppercase;
@@ -4327,7 +4328,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       .contact-widget .footer-social li:first-child {
         margin-left: 0px; }
       .contact-widget .footer-social li a {
-        color: #043381 !important; }
+        color: #7e714c !important }
       .contact-widget .footer-social li:hover {
         background: #043381; }
         .contact-widget .footer-social li:hover a {
@@ -4729,7 +4730,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       background: #867750;
       content: '';
       top: 38px;
-      left: 50px; }
+      left: 132px; }
     .up-content-style-01 .date-month .date {
       font-size: 55px;
       color: #867750;
