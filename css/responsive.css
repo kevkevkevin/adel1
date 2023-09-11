@@ -218,9 +218,26 @@
 }
 
 @media only screen and (max-width: 1199px) {
+    ._title,._subtitle,._desc {
+        color: #000 !important;
+        text-align: center;
+    }
+    ._title {
+        font-size: 3.5em !important;
+      }
+      
+    .logo_nav {
+        text-align: center;
+    align-items: center !important;
+    justify-content: center !important;
+    }
+
+    .logo_nav.logo img {
+        width: 300px
+    }
     .banner-style-5 {
         min-height: 700px;
-        background-position-x: 37%;
+        background-position-x: 55%;
     }
     .content-box-style-01 .box-date .box-content h4 {
         line-height: 25px;
@@ -326,6 +343,9 @@
 }
 
 @media only screen and (max-width:991px) {
+    .up-content-style-01 .date-month:before {
+        left: 25px
+    }
     .m_service {
         display: block;
     }

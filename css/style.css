@@ -421,6 +421,22 @@ code {
   .m_service {
     display: none;
 }
+
+.paddingHeader_sm_screen {
+  padding-left: 200px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+._title {
+  font-size: 4em;
+}
+
+._subtitle {
+  font-size: 2.4em;
+}
 /*--------------------------------------------------------------
 # Globals
 --------------------------------------------------------------*/
@@ -2998,7 +3014,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   height: 100vh;
   position: relative;
   width: 100%;
-  min-height: 969px; }
+  min-height: 969px;
+background-size: cover; background-repeat: no-repeat; }
   .banner-style-5 .banner-slider-5 {
     width: 100%; }
   .banner-style-5 .slick-prev, .banner-style-5 .slick-next {
@@ -6454,7 +6471,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0px;
-  color: #043381;
+  color: #867750;
   font-family: var(--body-font);
   padding-left: 53px; }
   .section-subtitle:before {
