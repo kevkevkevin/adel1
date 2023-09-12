@@ -344,15 +344,17 @@
 
 @media only screen and (max-width:991px) {
     
+    .modal-dialog {
+      padding: 15px;
+    }
+    .d_menu {
+        display: block !important;
+    }
     .sb-icon h2 {
         position: relative;
         top: 8px;
         font-size: 48px;
         color: #000;
-    }
-    .m_links {
-        font-weight: 700;
-        text-decoration: underline;
     }
     .up-content-style-01 .date-month:before {
         left: 25px
