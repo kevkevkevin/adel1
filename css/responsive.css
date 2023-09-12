@@ -343,6 +343,12 @@
 }
 
 @media only screen and (max-width:991px) {
+    .m_headstyle {
+      margin-bottom: 90px;
+    }
+    ._title {
+        font-size: 2.5em !important;
+    }
     .modal-dialog {
       padding: 15px;
     }
@@ -365,7 +371,11 @@
         display: none;
     }
     .paddingHeader_sm_screen {
-        padding-left: 0px !important;
+        
+        text-align: center;
+        background: linear-gradient(180deg, transparent, #fff);
+        padding: 25px 10px !important;
+        border-radius: 0 0 35px 35px;
     }
     .about-member-count.padding-top-135 {
         padding-top: 100px !important;
@@ -1145,6 +1155,10 @@
     }
     .navbar-area .logo {
         padding-top: 10px;
+        position: relative;
+    left: 50%;
+    transform: translate(-40%, 0);
+    width: 120px;
     }
     .copyright-sm {
         text-align: left !important;
