@@ -135,9 +135,9 @@
             }
         });
 
-        $(".video-btn-style-02").magnificPopup({
+        $(".vid_pop2").magnificPopup({
             items: {
-                src: "https://www.youtube.com/watch?v=AOXl0Ll_t9s"
+                src: "https://www.youtube.com/embed/eJdRX6q9m9w"
             },
             type: "iframe",
             iframe: {
@@ -150,7 +150,7 @@
                     youtube: {
                         index: "youtube.com/",
                         id: "v=",
-                        src: "//www.youtube.com/embed/AOXl0Ll_t9s"
+                        src: "//www.youtube.com/embed/eJdRX6q9m9w"
                     }
                 },
                 srcAction: "iframe_src"

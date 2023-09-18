@@ -366,8 +366,7 @@ code {
 }
 
 ._subtitle {
-  font-size: 2.4em;
-
+  font-size: 2em;
   color: #fff;
 }
 .d_menu {
@@ -379,6 +378,7 @@ code {
 }
 .gallery_ {
   border-radius: 15px;
+  width: 100%;
 }
 .video-thumb i {
   position: absolute;
@@ -390,6 +390,11 @@ code {
   z-index: 1;
 }
 .video-thumb i {cursor: pointer;}
+
+.vidRow_ {
+  max-width: 556px;
+  margin: 0 auto;
+}
 /*--------------------------------------------------------------
 # Globals
 --------------------------------------------------------------*/

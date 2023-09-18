@@ -225,7 +225,9 @@
     ._title {
         font-size: 3.5em !important;
       }
-      
+    ._subtitle {
+        font-size: 23px !important;
+    }
     .logo_nav {
         text-align: center;
     align-items: center !important;
@@ -369,6 +371,9 @@
     }
     .d_services {
         display: none;
+    }
+    .gallery_ {
+        padding: 15px;
     }
     .paddingHeader_sm_screen {
         
