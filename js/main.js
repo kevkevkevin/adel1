@@ -137,7 +137,7 @@
 
         $(".vid_pop2").magnificPopup({
             items: {
-                src: "https://www.youtube.com/embed/eJdRX6q9m9w"
+                src: "https://www.youtube.com/shorts/eJdRX6q9m9w"
             },
             type: "iframe",
             iframe: {
@@ -157,9 +157,9 @@
             }
         });
 
-        $(".video-btn-style-03").magnificPopup({
+        $(".vid_pop3").magnificPopup({
             items: {
-                src: "https://www.youtube.com/watch?v=AOXl0Ll_t9s"
+                src: "https://www.youtube.com/shorts/NQ-UrndSSDE"
             },
             type: "iframe",
             iframe: {
@@ -172,16 +172,16 @@
                     youtube: {
                         index: "youtube.com/",
                         id: "v=",
-                        src: "//www.youtube.com/embed/AOXl0Ll_t9s"
+                        src: "//www.youtube.com/embed/NQ-UrndSSDE"
                     }
                 },
                 srcAction: "iframe_src"
             }
         });
 
-        $(".video-btn-style-04").magnificPopup({
+        $(".vid_pop4").magnificPopup({
             items: {
-                src: "https://www.youtube.com/watch?v=AOXl0Ll_t9s"
+                src: "https://www.youtube.com/shorts/yapoNxTXjtw"
             },
             type: "iframe",
             iframe: {
@@ -194,7 +194,7 @@
                     youtube: {
                         index: "youtube.com/",
                         id: "v=",
-                        src: "//www.youtube.com/embed/AOXl0Ll_t9s"
+                        src: "//www.youtube.com/embed/yapoNxTXjtw"
                     }
                 },
                 srcAction: "iframe_src"

@@ -395,6 +395,22 @@ code {
   max-width: 556px;
   margin: 0 auto;
 }
+a.linkbttn_ {
+  text-align: center;
+  padding: 10px 25px;
+  background: #867750;
+  border-radius: 35px;
+  color: #fff;
+  transition: 0.3s all ease-in-out;
+  padding: 10px 40px;
+  border: 1px solid #867750;
+}
+a.linkbttn_:hover {
+  background: #00000000;
+  color: #867750;
+  font-weight: 700;
+  border: 1px solid #867750;
+}
 /*--------------------------------------------------------------
 # Globals
 --------------------------------------------------------------*/
