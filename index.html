@@ -587,17 +587,9 @@
 
             <!-- FLIP COUNTDOWN 😈 -->
             <div class="container">
-                <div class="tick" data-did-init="handleTickInit">
-            
-                    <div data-repeat="true"
-                        data-layout="horizontal center fit"
-                        data-transform="preset(d, h, m, s) -> delay" style="flex-direction: row-reverse;">
-                        <div class="tick-group">
-                            <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
-                                <span data-view="flip"></span>
-                            </div>
-                            <span data-key="label" data-view="text" class="tick-label"></span>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-12" style="padding: 35px">
+                        <div class="flipper" data-datetime="2023-10-03 20:00:00" data-template="ss|ii|HH|dd" data-labels="ثانية|دقيقة|ساعة|يوم" id="myFlipper"></div>
                     </div>
                 </div>
             </div>
