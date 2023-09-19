@@ -82,7 +82,21 @@
     src="https://www.facebook.com/tr?id=333040965833042&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-    
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Person",
+          "name": "عادل الحميدي",
+          "url": "https://adelalhameedi.ae/",
+          "image": "https://www.adelalhameedi.ae/images/Adel-Alhameedi.jpg",
+          "sameAs": [
+            "https://www.facebook.com/Adelalhameediae",
+            "https://twitter.com/adelalhameedi",
+            "https://www.instagram.com/adelalhameediae/"
+          ],
+          "jobTitle": "المرشح الانتخابي عادل الحميدي"  
+        }
+    </script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap');
         body, html, p , h1, h2, h3, h4, h5, h6, span, a {
@@ -104,99 +118,6 @@
         background-color: #867750;    /* color of the scroll thumb */
         border-radius: 20px;       /* roundness of the scroll thumb */
         border: 3px solid #ffffff00;  /* creates padding around scroll thumb */
-        }
-        
-        .navbar-area-fixed {
-            display: none;
-        }
-
-        .modal-title {
-            text-align: right;
-            direction: rtl;
-        }
-
-        .modal-content {
-            height: 700px;
-            overflow-y: auto;
-            overflow-x: hidden;
-        }
-
-        button.close {
-            position: fixed;
-            left: -22px;
-            background: #fff;
-            opacity: 1;
-            border-radius: 50%;
-            height: 50px;
-            width: 50px;
-            font-size: 27px;
-            line-height: 0.3;
-            top: 3px;
-        }
-        .float_ {
-            background: #fff;
-            max-width: 100%;
-            padding: 5px;
-            -webkit-box-shadow: 0px 0px 20px 4px rgba(134,119,80,0.35);
-            -moz-box-shadow: 0px 0px 20px 4px rgba(134,119,80,0.35);
-            box-shadow: 0px 0px 20px 4px rgba(134,119,80,0.35);
-            border-radius: 15px;
-            position: fixed;
-            bottom: 15px;
-            left: 15px;
-            opacity: 0.6;
-        }
-
-        .float_ img {
-            width: 80px;
-        }
-        @media only screen and (max-width:991px) {
-            button.close {
-                left: 0px;
-                top: 20px;
-            }
-            .float_ {
-                border-radius: 10px;
-                bottom: 5px;
-                left: 5px;
-                opacity: 0.7;
-            }
-            .float_ img {
-                width: 40px;
-            }
-        }
-
-        .m_hidden {
-            color: #fff;
-        }
-        .up-content-style-01 ul li i {
-            color:#867750 ;
-        }
-        .up-content-style-01 ul li i a{
-            cursor: pointer;
-        }
-        .tick {
-            padding-bottom: 1em;
-            font-size:1rem;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-        }
-        
-        .tick-label {
-            font-size:.375em;
-            text-align:center;
-        }
-
-        .tick-group {
-            margin:0 .25em;
-            text-align:center;
-        }
-
-        .tick .tick-credits {
-            display: none !important;
-        }
-
-        .tick-flip-panel {
-            background-color: #867750 !important;
         }
     </style>
 </head>
@@ -306,7 +227,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="thumb col-lg-6 m_headstyle">
-                               <h1 style="opacity: 0;">عادل الحميدي</h1>
+                               <h2 style="opacity: 0;">عادل الحميدي</h2>
                             </div>
                             <div class="content align-self-center col-lg-6 paddingHeader_sm_screen" style="direction: rtl; text-align: right;">
                                 <h1 class="title _title" data-animation-in="fadeInRight" style="font-weight: 600;">مرشحكم<br>عادل الحميدي</h1>
@@ -473,7 +394,6 @@
     <div class="" style="background: url(./images/adelCTA.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; height: 100vh; background-attachment: fixed;">
 
     </div> -->
-    
     <div id="4"></div>
     <div class="up-event-two margin-bottom-115 padding-top-115 d_services">
         <div class="container">
@@ -488,17 +408,9 @@
 
             <!-- FLIP COUNTDOWN 😈 -->
             <div class="container">
-                <div class="tick" data-did-init="handleTickInit">
-            
-                    <div data-repeat="true"
-                        data-layout="horizontal center fit"
-                        data-transform="preset(d, h, m, s) -> delay" style="flex-direction: row-reverse;">
-                        <div class="tick-group">
-                            <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
-                                <span data-view="flip"></span>
-                            </div>
-                            <span data-key="label" data-view="text" class="tick-label"></span>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-12" style="padding: 35px">
+                        <div class="flipper" data-datetime="2023-10-03 20:00:00" data-template="ss|ii|HH|dd" data-labels="ثانية|دقيقة|ساعة|يوم" id="myFlipper"></div>
                     </div>
                 </div>
             </div>
@@ -876,77 +788,6 @@
     </div>
     <!-- END MOBILE EVENTS -->
 
-
-    <!-- blog area Start 
-    <div class="home-news-area padding-top-115">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center padding-bottom-55">
-                        <h2 class="section-title">الأخبار والتحديث</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="news-item-style-03">
-                        <div class="thumb">
-                            <img src="images/1_2.png" alt="news">
-                            <div class="small-thumb">
-                                <img src="images/sm1.png" alt="small thumb">
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p class="subtitle">Politics</p>
-                            <h4 class="title"><a href="blog-details.html">الرؤساء الرئيسيون يطالبون بإلغاء المؤتمر الصحفي</a></h4>
-                            <ul class="blog-meta d-flex flex-column flex-lg-row">
-                                <li><a href="#">25 September 2023</a></li>
-                                <li><a href="#">Read 4576</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="news-item-style-03">
-                        <div class="thumb">
-                            <img src="images/2_1.png" alt="news">
-                            <div class="small-thumb">
-                                <img src="images/sm2.png" alt="small thumb">
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p class="subtitle">World economy</p>
-                            <h4 class="title"><a href="blog-details.html">حضر المؤتمر الدولي للسلام</a></h4>
-                            <ul class="blog-meta d-flex flex-column flex-lg-row">
-                                <li><a href="#">05 December 2023</a></li>
-                                <li><a href="#">Read 876</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="news-item-style-03">
-                        <div class="thumb">
-                            <img src="images/3_1.png" alt="news">
-                            <div class="small-thumb">
-                                <img src="images/sm3.png" alt="small thumb">
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p class="subtitle">Education</p>
-                            <h4 class="title"><a href="blog-details.html">ترامب يصف الديمقراطيين بأنهم يركزون على عزله...</a></h4>
-                            <ul class="blog-meta d-flex flex-column flex-lg-row">
-                                <li><a href="#">27 November 2023</a></li>
-                                <li><a href="#">Read 7664</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     blog area End -->
-    
     <!--🖼️ GALLERY 🖼️-->
     <div class="container margin-bottom-60">
         <div class="row">
@@ -1317,7 +1158,14 @@
     <!-- main js -->
     <script src="js/script.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="./jquery.flipper-responsive.js"></script>
     <script>
+        $(function(){
+            $('#myFlipper').flipper('init');
+        });
+    </script>
+    <!-- <script>
         function handleTickInit(tick) {
     
             // Uncomment to set labels to different language ( in this case Dutch )
@@ -1354,7 +1202,7 @@
             };
     
         }
-    </script>
+    </script> -->
     
     <!-- END OF FLIP EXAMPLE PRESET -->
     
